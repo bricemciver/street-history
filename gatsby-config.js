@@ -15,7 +15,7 @@ module.exports = {
     author: `bricemciver`,
     mapboxApiKey: process.env.MAPBOX_API_KEY,
   },
-  pathPrefix: "/street-history",
+  pathPrefix: "/",
   plugins: [
     {
       resolve: "gatsby-plugin-react-leaflet",
